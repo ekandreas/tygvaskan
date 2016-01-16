@@ -35,8 +35,8 @@ set('env_vars', '/usr/bin/env');
 
 task('deploy:restart', function () {
     writeln('Purge cache...');
-    run( 'rm -Rf web/app/uploads/.cache/*.*' );
-    run( 'chmod -R 777 web/app/uploads' );
+    //run( 'rm -Rf web/app/uploads/.cache/*.*' );
+    //run( 'chmod -R 777 web/app/uploads' );
 })->desc('Empty cache');
 
 task( 'deploy', [
