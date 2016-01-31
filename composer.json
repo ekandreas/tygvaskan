@@ -38,7 +38,8 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.4.1",
     "wpackagist-plugin/disqus-comment-system": "*",
-    "wpackagist-plugin/ml-slider": "*"
+    "wpackagist-plugin/ml-slider": "*",
+    "wpackagist-plugin/google-analytics-for-wordpress": "*"
   },
   "extra": {
     "installer-paths": {
