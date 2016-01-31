@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "21973d75eeabb15beea257ffb3fe07b1",
-    "content-hash": "639b91294fda3acf785189c7deb92840",
+    "hash": "76c4186440f590e2086ea3fb9b85fcf5",
+    "content-hash": "3dfde11cc12700c63e3c57c3f645582c",
     "packages": [
         {
             "name": "composer/installers",
@@ -260,6 +260,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/disqus-comment-system/"
+        },
+        {
+            "name": "wpackagist-plugin/ml-slider",
+            "version": "3.3.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/ml-slider/",
+                "reference": "tags/3.3.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ml-slider.3.3.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ml-slider/"
         }
     ],
     "packages-dev": [
@@ -327,7 +347,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ekandreas/docker-bedrock/zipball/5be6ea56dde523fda52a87f98ea9fee78786e7a7",
+                "url": "https://api.github.com/repos/ekandreas/docker-bedrock/zipball/dadcef81138b845dd00488d5b8df1e918d8e5321",
                 "reference": "5be6ea56dde523fda52a87f98ea9fee78786e7a7",
                 "shasum": ""
             },
