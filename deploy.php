@@ -1,7 +1,7 @@
 <?php
 namespace Deployer;
 
-require __DIR__ . "/vendor/deployer/deployer/recipe/common.php";
+require __DIR__ . "/vendor/deployer/deployer/recipe/composer.php";
 
 set('ssh_type', 'native');
 set('ssh_multiplexing', true);
@@ -10,10 +10,10 @@ set('domain', 'tygvaskan.app');
 
 server('dev','localhost');
 
-server('production', 'elseif.se', 22)
+server('production', '139.162.161.167', 22)
     ->set('deploy_path', '~/www.tygvaskan.se')
     ->user('forge')
-    ->set('branch', 'develop')
+    ->set('branch', 'master')
     ->set('database', 'tygvaskan')
     ->stage('production')
     ->identityFile();
