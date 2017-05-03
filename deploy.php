@@ -45,3 +45,8 @@ task('pull', function () {
         writeln(runLocally($action, 999));
     }
 });
+
+task('deploy:restart', function () {
+    run("sudo /etc/init.d/php7.1-fpm restart");
+});
+after('deploy','deploy:restart');
