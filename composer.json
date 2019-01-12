@@ -13,13 +13,12 @@
   ],
   "require": {
     "php": ">=5.5",
-    "composer/installers": "*",
-    "vlucas/phpdotenv": "^2.0.1",
+    "composer/installers": "^1",
+    "vlucas/phpdotenv": "^2",
     "johnpbloch/wordpress": "*",
     "wpackagist-plugin/disqus-comment-system": "*",
     "wpackagist-plugin/ml-slider": "*",
-    "wpackagist-plugin/google-analytics-for-wordpress": "*",
-    "wpackagist-plugin/redis-cache": "^1.3"
+    "wpackagist-plugin/google-analytics-for-wordpress": "*"
   },
   "extra": {
     "installer-paths": {
