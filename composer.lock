@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "241d7ee71f5a73bc6cdc0df6fd041753",
+    "content-hash": "e113f4573ac032c75badee097a580c8c",
     "packages": [
         {
             "name": "composer/installers",
@@ -364,16 +364,16 @@
             "time": "2019-01-29T11:11:52+00:00"
         },
         {
-            "name": "wpackagist-plugin/disqus-comment-system",
-            "version": "3.0.16",
+            "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
+            "version": "5.3.7",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/disqus-comment-system/",
-                "reference": "tags/3.0.16"
+                "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
+                "reference": "tags/5.3.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.3.0.16.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.3.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -381,47 +381,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/disqus-comment-system/"
-        },
-        {
-            "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "7.4.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/7.4.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.7.4.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
-        },
-        {
-            "name": "wpackagist-plugin/ml-slider",
-            "version": "3.11.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/ml-slider/",
-                "reference": "tags/3.11.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ml-slider.3.11.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/ml-slider/"
+            "homepage": "https://wordpress.org/plugins/google-analytics-dashboard-for-wp/"
         },
         {
             "name": "wpackagist-plugin/options-for-twenty-nineteen",

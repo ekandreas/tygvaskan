@@ -16,14 +16,12 @@
     "composer/installers": "^1",
     "vlucas/phpdotenv": "^2",
     "johnpbloch/wordpress": "*",
-    "wpackagist-plugin/disqus-comment-system": "*",
-    "wpackagist-plugin/ml-slider": "*",
-    "wpackagist-plugin/google-analytics-for-wordpress": "*",
-    "wpackagist-plugin/stackable-ultimate-gutenberg-blocks": "^1.12",
-    "wpackagist-plugin/woocommerce": "^3.5",
-    "wpackagist-plugin/woo-gutenberg-products-block": "^1.3",
-    "wpackagist-plugin/resize-image-after-upload": "^1.8",
-    "wpackagist-plugin/options-for-twenty-nineteen": "^1.0"
+    "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
+    "wpackagist-plugin/stackable-ultimate-gutenberg-blocks": "*",
+    "wpackagist-plugin/woocommerce": "*",
+    "wpackagist-plugin/woo-gutenberg-products-block": "*",
+    "wpackagist-plugin/resize-image-after-upload": "*",
+    "wpackagist-plugin/options-for-twenty-nineteen": "*"
   },
   "extra": {
     "installer-paths": {
