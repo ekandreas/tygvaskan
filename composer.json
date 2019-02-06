@@ -20,7 +20,8 @@
     "wpackagist-plugin/ml-slider": "*",
     "wpackagist-plugin/google-analytics-for-wordpress": "*",
     "wpackagist-plugin/stackable-ultimate-gutenberg-blocks": "^1.12",
-    "wpackagist-plugin/woocommerce": "^3.5"
+    "wpackagist-plugin/woocommerce": "^3.5",
+    "wpackagist-plugin/woo-gutenberg-products-block": "^1.3"
   },
   "extra": {
     "installer-paths": {
