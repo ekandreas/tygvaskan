@@ -21,7 +21,8 @@
     "wpackagist-plugin/woocommerce": "*",
     "wpackagist-plugin/woo-gutenberg-products-block": "*",
     "wpackagist-plugin/resize-image-after-upload": "*",
-    "wpackagist-plugin/options-for-twenty-nineteen": "*"
+    "wpackagist-plugin/options-for-twenty-nineteen": "*",
+    "wpackagist-plugin/autodescription": "*"
   },
   "extra": {
     "installer-paths": {
