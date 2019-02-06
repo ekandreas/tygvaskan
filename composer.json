@@ -19,7 +19,8 @@
     "wpackagist-plugin/disqus-comment-system": "*",
     "wpackagist-plugin/ml-slider": "*",
     "wpackagist-plugin/google-analytics-for-wordpress": "*",
-    "wpackagist-plugin/stackable-ultimate-gutenberg-blocks": "^1.12"
+    "wpackagist-plugin/stackable-ultimate-gutenberg-blocks": "^1.12",
+    "wpackagist-plugin/woocommerce": "^3.5"
   },
   "extra": {
     "installer-paths": {

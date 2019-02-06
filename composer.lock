@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d4d62ae0b41abe5a08b8ab880290e92",
+    "content-hash": "d47c5e1c73fd9ac6624b55843465adb0",
     "packages": [
         {
             "name": "composer/installers",
@@ -442,6 +442,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/stackable-ultimate-gutenberg-blocks/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "3.5.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/3.5.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.5.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
         }
     ],
     "packages-dev": [
