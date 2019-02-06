@@ -18,7 +18,8 @@
     "johnpbloch/wordpress": "*",
     "wpackagist-plugin/disqus-comment-system": "*",
     "wpackagist-plugin/ml-slider": "*",
-    "wpackagist-plugin/google-analytics-for-wordpress": "*"
+    "wpackagist-plugin/google-analytics-for-wordpress": "*",
+    "wpackagist-plugin/stackable-ultimate-gutenberg-blocks": "^1.12"
   },
   "extra": {
     "installer-paths": {
