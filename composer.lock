@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a80d8e5fcf23333b734bc6ddb5b7b259",
+    "content-hash": "241d7ee71f5a73bc6cdc0df6fd041753",
     "packages": [
         {
             "name": "composer/installers",
@@ -422,6 +422,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ml-slider/"
+        },
+        {
+            "name": "wpackagist-plugin/options-for-twenty-nineteen",
+            "version": "1.0.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/options-for-twenty-nineteen/",
+                "reference": "tags/1.0.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/options-for-twenty-nineteen.1.0.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/options-for-twenty-nineteen/"
         },
         {
             "name": "wpackagist-plugin/resize-image-after-upload",
