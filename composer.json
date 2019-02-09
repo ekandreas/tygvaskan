@@ -16,13 +16,9 @@
     "composer/installers": "^1",
     "vlucas/phpdotenv": "^2",
     "johnpbloch/wordpress": "*",
-    "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
-    "wpackagist-plugin/stackable-ultimate-gutenberg-blocks": "*",
-    "wpackagist-plugin/woocommerce": "*",
-    "wpackagist-plugin/woo-gutenberg-products-block": "*",
-    "wpackagist-plugin/resize-image-after-upload": "*",
-    "wpackagist-plugin/options-for-twenty-nineteen": "*",
-    "wpackagist-plugin/autodescription": "*"
+    "wpackagist-plugin/disqus-comment-system": "*",
+    "wpackagist-plugin/ml-slider": "*",
+    "wpackagist-plugin/google-analytics-for-wordpress": "*"
   },
   "extra": {
     "installer-paths": {

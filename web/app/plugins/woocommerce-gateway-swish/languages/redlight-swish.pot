@@ -1,0 +1,239 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Swish Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-08 21:29+0000\n"
+"POT-Revision-Date: Sat Jan 23 2016 18:13:50 GMT+0100 (Västeuropa, normaltid)"
+"\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-SearchPath-0: .."
+
+#: gateway-swish.php:145
+msgid ""
+"Extends WooCommerce. Provides a <a href='http://www.getswish.se' "
+"target='_blank'>Swish</a> gateway for WooCommerce."
+msgstr ""
+
+#: gateway-swish.php:147 gateway-swish.php:222
+msgid "Swish"
+msgstr ""
+
+#: gateway-swish.php:202
+msgid "License key"
+msgstr ""
+
+#: gateway-swish.php:204
+msgid ""
+"To enable updates for this plugin, enter the license key you recived when "
+"you downloeded this plugin"
+msgstr ""
+
+#: gateway-swish.php:207
+msgid "Deactivate License key"
+msgstr ""
+
+#: gateway-swish.php:210
+msgid "Deactivating this license key will disable updates"
+msgstr ""
+
+#: gateway-swish.php:213
+msgid "Enable / Disable"
+msgstr ""
+
+#: gateway-swish.php:214
+msgid "Enable this payment gateway"
+msgstr ""
+
+#: gateway-swish.php:219
+msgid "Title"
+msgstr ""
+
+#: gateway-swish.php:221
+msgid "Enter the name you want displayed for the user."
+msgstr ""
+
+#: gateway-swish.php:225
+msgid "Description"
+msgstr ""
+
+#: gateway-swish.php:227
+msgid ""
+"Pay your purchase directly through your smartphone with Swish payment app "
+"that is available for both iPhone and Android.\n"
+"                        Note that you must have your mobile phone and log-in "
+"information ready to complete the purchase . <br> Payment will be registred "
+"directly and the money will be reserved from your account. No extra fee is "
+"charged ."
+msgstr ""
+
+#: gateway-swish.php:230
+msgid ""
+"Swish works between  Danske Bank,  Handelsbanken,  ICA Banken,  "
+"Länsförsäkringar,  Nordea,  SEB,  Skandia,  Sparbanken Syd,  Sparbanken "
+"Öresund samt Swedbank och Sparbankerna."
+msgstr ""
+
+#: gateway-swish.php:234
+msgid "Message"
+msgstr ""
+
+#: gateway-swish.php:236
+msgid ""
+"Instructions that will appear on the \"Thank you for your order \" and the e-"
+"mail message."
+msgstr ""
+
+#: gateway-swish.php:237
+msgid ""
+"Since payments made ​​via Swish must be manually reviewed and matched "
+"against your order as it can take up to 24 hours before it is done. You get "
+"an email when your order is processed."
+msgstr ""
+
+#: gateway-swish.php:241
+msgid "Your Swish number"
+msgstr ""
+
+#: gateway-swish.php:243
+msgid "Enter the number you received when you joined Swish ."
+msgstr ""
+
+#: gateway-swish.php:246 gateway-swish.php:264
+msgid "Show / Hide description"
+msgstr ""
+
+#: gateway-swish.php:247 gateway-swish.php:265
+msgid "Show description"
+msgstr ""
+
+#: gateway-swish.php:252
+msgid "Description of your Swish account"
+msgstr ""
+
+#: gateway-swish.php:254
+msgid "Example: Company Inc"
+msgstr ""
+
+#: gateway-swish.php:259
+msgid "Your second Swish number"
+msgstr ""
+
+#: gateway-swish.php:261
+msgid ""
+"If you have more than one Swish number , enter the second here. If not, "
+"leave blank"
+msgstr ""
+
+#: gateway-swish.php:270
+msgid "Description of your second Swish account"
+msgstr ""
+
+#: gateway-swish.php:272
+msgid "Example: Company Two Inc"
+msgstr ""
+
+#: gateway-swish.php:277
+msgid "Activate / Deactivate QR-code"
+msgstr ""
+
+#: gateway-swish.php:278
+msgid "Show Swish QR-code at thank-you page"
+msgstr ""
+
+#: gateway-swish.php:281
+msgid "This requires you to have a valid Swish agreement for Swish-företag"
+msgstr ""
+
+#: gateway-swish.php:284
+msgid "Allow customer to make changes to the Swish-nr"
+msgstr ""
+
+#: gateway-swish.php:288
+msgid ""
+"This will allow the customer to edit the number after qr-code is scanned"
+msgstr ""
+
+#: gateway-swish.php:291
+msgid "Allow customer to make changes to the amount"
+msgstr ""
+
+#: gateway-swish.php:295
+msgid ""
+"This will allow the customer to edit the amount after qr-code is scanned"
+msgstr ""
+
+#: gateway-swish.php:373
+#, php-format
+msgid "Payment for order %s"
+msgstr ""
+
+#: gateway-swish.php:390 gateway-swish.php:432
+msgid "To pay with Swish"
+msgstr ""
+
+#: gateway-swish.php:391 gateway-swish.php:439
+msgid "Please pay your order by swishing"
+msgstr ""
+
+#: gateway-swish.php:391 gateway-swish.php:439
+msgid "to"
+msgstr ""
+
+#: gateway-swish.php:392 gateway-swish.php:399 gateway-swish.php:440
+#: gateway-swish.php:447
+msgid "number"
+msgstr ""
+
+#: gateway-swish.php:395 gateway-swish.php:443
+msgid "Alternative you can send your payment to"
+msgstr ""
+
+#: gateway-swish.php:402 gateway-swish.php:450
+msgid "Enter"
+msgstr ""
+
+#: gateway-swish.php:402 gateway-swish.php:450
+msgid "as message in your Swish-app"
+msgstr ""
+
+#: gateway-swish.php:474
+msgid "Awaiting swish payment"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Swish Gateway"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Extends WooCommerce. Provides a <a href=\"http://www.getswish.se\" "
+"target=\"_blank\">Swish</a> gateway for WooCommerce."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://redlight.se/swish"
+msgstr ""
+
+#. Author of the plugin
+msgid "Redlight Media"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://redlight.se/"
+msgstr ""

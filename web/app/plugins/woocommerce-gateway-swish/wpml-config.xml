@@ -1,0 +1,12 @@
+<wpml-config>
+    <admin-texts>
+        <key name="woocommerce_redlight_swish_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="message" />
+            <key name="swish_number_desc" />
+            <key name="swish_number_desc_two" />
+        </key>
+        <key name="simple_string_option" />
+    </admin-texts>
+</wpml-config>
