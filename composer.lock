@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eef610df95abc8faec9f6cc46c34425b",
+    "content-hash": "468c9fec40bdd2142441525049e05942",
     "packages": [
         {
             "name": "composer/installers",
@@ -405,15 +405,15 @@
         },
         {
             "name": "wpackagist-plugin/options-for-twenty-nineteen",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/options-for-twenty-nineteen/",
-                "reference": "tags/1.0.8"
+                "reference": "tags/1.0.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/options-for-twenty-nineteen.1.0.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/options-for-twenty-nineteen.1.0.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -502,6 +502,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-mail-smtp",
+            "version": "1.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
+                "reference": "tags/1.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
         }
     ],
     "packages-dev": [
