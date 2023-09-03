@@ -38,6 +38,7 @@
     "wordpress-install-dir": "web/wp"
   },
   "require-dev": {
-    "deployer/deployer": "*"
+    "deployer/deployer": "*",
+    "wp-cli/wp-cli-bundle": "^2.8"
   }
 }
