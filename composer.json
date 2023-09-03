@@ -3,7 +3,11 @@
   "type": "project",
   "license": "MIT",
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "johnpbloch/wordpress-core-installer": true,
+      "composer/installers": true
+    }
   },
   "repositories": [
     {
