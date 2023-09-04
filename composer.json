@@ -29,7 +29,8 @@
     "wpackagist-plugin/options-for-twenty-twenty": "*",
     "wpackagist-plugin/options-for-twenty-twenty-one": "*",
     "wpackagist-plugin/autodescription": "*",
-    "wpackagist-plugin/wp-mail-smtp": "*"
+    "wpackagist-plugin/wp-mail-smtp": "*",
+    "wpackagist-theme/twentytwentythree": "*"
   },
   "extra": {
     "installer-paths": {
@@ -41,6 +42,6 @@
   },
   "require-dev": {
     "deployer/deployer": "*",
-    "wp-cli/wp-cli-bundle": "^2.8"
+    "wp-cli/wp-cli-bundle": "*"
   }
 }
