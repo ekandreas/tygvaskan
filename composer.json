@@ -26,6 +26,8 @@
     "wpackagist-plugin/woo-gutenberg-products-block": "*",
     "wpackagist-plugin/resize-image-after-upload": "*",
     "wpackagist-plugin/options-for-twenty-nineteen": "*",
+    "wpackagist-plugin/options-for-twenty-twenty": "*",
+    "wpackagist-plugin/options-for-twenty-twenty-one": "*",
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/wp-mail-smtp": "*"
   },

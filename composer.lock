@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ca4cf030b53f1fe88b8645c5d91d560",
+    "content-hash": "4c1eba1e683b5105d519f8f9b99d5845",
     "packages": [
         {
             "name": "composer/installers",
@@ -516,6 +516,42 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/options-for-twenty-nineteen/"
+        },
+        {
+            "name": "wpackagist-plugin/options-for-twenty-twenty",
+            "version": "1.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/options-for-twenty-twenty/",
+                "reference": "tags/1.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/options-for-twenty-twenty.1.6.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/options-for-twenty-twenty/"
+        },
+        {
+            "name": "wpackagist-plugin/options-for-twenty-twenty-one",
+            "version": "1.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/options-for-twenty-twenty-one/",
+                "reference": "tags/1.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/options-for-twenty-twenty-one.1.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/options-for-twenty-twenty-one/"
         },
         {
             "name": "wpackagist-plugin/resize-image-after-upload",
